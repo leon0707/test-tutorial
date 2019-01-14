@@ -1,0 +1,25 @@
+{
+  "name": "test_tutorial",
+  "version": "1.0.0",
+  "description": "Test for apis of a CRUD app with express and mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --opts ./tests/mocha.opts ./tests/*.test.js",
+    "start": "nodemon index.js"
+  },
+  "author": "Leon Feng",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.3",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-exclude": "^1.0.12",
+    "mocha": "^5.2.0",
+    "mongodb-memory-server": "^2.9.3",
+    "supertest": "^3.3.0"
+  }
+}
